@@ -1,5 +1,7 @@
-numpy
-pandas
 streamlit
+tensorflow
+numpy
 scikit-learn
+pandas
+joblib
 pickle
