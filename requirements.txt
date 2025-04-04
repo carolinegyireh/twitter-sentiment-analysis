@@ -3,5 +3,4 @@ tensorflow
 numpy
 scikit-learn
 pandas
-joblib
 pickle
