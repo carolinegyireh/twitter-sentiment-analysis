@@ -3,7 +3,7 @@ import pickle
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # Load trained LSTM model
-model = pickle.load(open("lstm_sentiment_model.keras", "rb"))
+model = pickle.load(open("lstm_sentiment_model.pkl", "rb"))
 tokenizer = pickle.load(open("tokenizer.pkl", "rb"))
 
 st.title("Twitter Sentiment Analysis")
